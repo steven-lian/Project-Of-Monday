@@ -1,0 +1,53 @@
+/* The navigation bar */
+header {
+    z-index: 1;
+    background-color:rgb(221, 234, 238);
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+  }
+  
+  
+  /* Change background on mouse-over */
+  .navbar a:hover {
+    background:lightblue;
+    color: rgb(223, 217, 217);
+  }
+
+  #contact ul li a:hover {
+    background:rgba(rgb(153, 235, 171), green, blue, 0.7);
+    color: rgb(137, 240, 142);
+  }
+  
+  /* Main content */
+  .main {
+    margin-top: 170px; /* Add a top margin to avoid content overlay */
+  }
+  
+  #welcome {
+    margin-top: 220px; /* Add a top margin to avoid content overlay */
+  }
+h1 {text-align: left;
+    color:grey;
+    margin: 20px;
+}
+
+#welcome h3 {text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        color: blueviolet;
+}
+#contact h3{justify-content: space-between;
+            text-align: center;}
+
+h2 {padding: 22px;
+    text-align: left;
+    margin: 20px;
+    background-color: lightseagreen;
+    border-radius: 15px;
+    color: black;
+
+}
+img{
+    margin:30px;
+    
+}
