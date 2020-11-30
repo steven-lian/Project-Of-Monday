@@ -51,3 +51,6 @@ img{
     margin:30px;
     
 }
+#projects{
+    z-index: 2;
+}
